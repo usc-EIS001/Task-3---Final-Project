@@ -1,0 +1,48 @@
+.navbar {
+    top: 0;
+    left: 37%;
+    width: 25%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: rgb(234, 190, 152);
+    border-radius: 10px;
+}
+
+.navhome {
+    background-color: whitesmoke;
+    color: black;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    transform: translate(-27%, -50%);
+}
+
+.navrecipies {
+    background-color: whitesmoke;
+    color: black;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-48%, -50%);
+}
+
+.navcreaterecipies {
+    background-color: whitesmoke;
+    color: black;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 77.5%;
+    transform: translate(-77.5%, -50%);
+}
+
+.navhome:hover, .navrecipies:hover, .navcreaterecipies:hover {
+    background-color: #d7d6d6;
+    color: black;
+    transition: 0.7s;
+}

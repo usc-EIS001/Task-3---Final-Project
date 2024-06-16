@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(246, 210, 178);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: black 1px 1px;
+    font-size: 50px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-shadow: black 1px 1px;
+    font-size: 40px;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    text-shadow: black 1px 1px;
+    font-size: 30px;
+}
+
+p1 {
+    color: rgb(255, 255, 255);
+    text-shadow: black 1px 1px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+li {
+    color: rgb(255, 255, 255);
+    text-shadow: black 1px 1px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+label {
+    color: rgb(255, 255, 255);
+    text-shadow: black 0.5px 0.5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.separator {
+    border-bottom: 1px solid rgb(246, 210, 178);
+    margin: 20px 0;
+  }
+
+.rSubmit {
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+}
+
+button:hover {
+    background-color: #d7d6d6;
+    color: black;
+    transition: 0.5s;
+}
+
+.border {
+    border-radius: 10px;
+    padding: 25px;
+    background-color: rgb(234, 190, 152);
+}
